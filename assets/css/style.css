@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body,
+html {
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: gold;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.wrapper {
+  margin: 100px auto;
+  width: 70%;
+}
+img {
+  max-width: 360px;
+  float: left;
+  border: 0px solid red;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.text-box {
+  color: gold;
+}
+.text-box h1 {
+  font-size: 60px;
+  color: darkred;
+}
+.text-box p {
+  color: blue;
+  font-size: 40px;
+}
+.text-box h3 {
+  color: black;
+  font-size: 40px;
+}
+
+.text-box h5 {
+  color: maroon;
+  font-size: 40px;
+}
+
+.amin button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
